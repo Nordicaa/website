@@ -1,0 +1,177 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+.navbar{
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    z-index: 10;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    background-color: rgba(44, 45, 46, 0.9);
+    font-size: 17px;
+
+}
+.options{
+    align-self: center;
+    padding-left: 1200px;
+
+}
+
+.nav-logo{
+    padding: 10px;
+}
+.navbar-options{
+    text-decoration: none;
+    color: #fff;
+    transition: all 0.5s ease-in-out;
+    padding: 4px;
+    font-weight: 700;
+}
+
+.navbar-options:hover{
+    color: red;
+}.header{
+    position: relative;
+}
+.header-all{
+    height: 100vh;
+}
+.header-car{
+    width: 100%;
+    height: 100vh;
+}
+.header-text{
+  position: absolute;
+  top: 30%;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  color: #fff;
+ 
+}
+.header-skinny-text{
+    font-size: 150px;
+    font-weight:100;
+}
+.header-under-skinny-text{
+    font-size: 140px;
+    font-weight: 500;
+}
+.header-big-text{
+    font-size: 30px;
+    margin: 20px 100px 0px 100px;
+}
+.bottom-main{
+    background-color:rgb(44, 45, 46);
+    width: 100%;
+    height: 740px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.bottom-skinny-text{
+    color: #fff;
+    font-weight: 100;
+    font-size: 95px;
+    }
+.bottom-big-text{
+    color: #fff;
+    font-weight: 900;
+    font-size: 85px;
+}
+.bottom-big-text2{
+    color: #fff;
+    font-size: 18px;
+    margin-top: 85px;
+    margin-right: 300px;
+    margin-left: 300px;
+}
+.bottom-button{
+    margin-top:40px;
+    margin: 0 auto;
+    width: 150px;
+    height: 50px;
+    background-color:rgb(234,32,46) ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bottom-button1{
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+}
+@media only screen and (max-width: 480px){
+    .navbar{
+        position: fixed;
+        left: 0;
+        top: 0;
+        right: 0;
+        z-index: 1080;
+        display: flex;
+        align-items: center;
+        height: 56px;
+        padding: 4px;
+        background-color: rgba(44, 45, 46, 0.9);
+    }
+    .nav-logo{
+        width: 100px;
+    }
+    .options{
+        padding-left: 0px;
+    }
+    .header-all{
+        height: 258px;
+    }
+    .header-car{
+        margin-top: 64px;
+        width: 375px;
+        height: 190px;
+    }
+    .header-big-text{
+        display: none;
+    }
+    .header-text{
+        top: 91px;
+    }
+    .header-skinny-text{
+        font-size:48px;
+
+    }
+    .header-under-skinny-text{
+        font-size: 48px;
+    }
+    .bottom-skinny-text{
+        font-size: 48px;
+    }
+    .bottom-big-text{
+        font-size: 48px;
+    }
+    .bottom-big-text2{
+        color: #fff;
+        font-size: 18px; 
+         margin-top: 0px; 
+         margin-right: 0px;
+        margin-left: 0px;
+        margin-bottom: 70px;
+    }
+    .center {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .first-layer {
+            display: flex;
+            flex-direction: column;
+        }
+    .second-layer {
+        display: flex;
+        flex-direction: column;}
+}
